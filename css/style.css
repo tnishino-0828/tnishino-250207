@@ -390,29 +390,29 @@ a {
     padding: 25px 7.15% 198px;
   }
 }
-section.flow div.catch {
+section.renovation div.catch {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section.flow div.catch span.english {
+section.renovation div.catch span.english {
   letter-spacing: 0.05px;
   line-height: 28px;
 }
 @media (min-width: 768px) {
-  section.flow div.catch span.english {
+  section.renovation div.catch span.english {
     line-height: 56px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  section.flow div.catch span.english {
+  section.renovation div.catch span.english {
     font-size: 15px;
   }
 }
-section.flow div.catch div.message {
+section.renovation div.catch div.message {
   font-size: 23px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 2.3px;
   line-height: 36px;
   border-bottom: 1px solid #733b00;
@@ -422,7 +422,7 @@ section.flow div.catch div.message {
   padding-bottom: 8px;
 }
 @media (min-width: 768px) {
-  section.flow div.catch div.message {
+  section.renovation div.catch div.message {
     font-size: 28px;
     line-height: 56px;
     letter-spacing: 2.8px;
@@ -430,327 +430,441 @@ section.flow div.catch div.message {
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  section.flow div.catch div.message {
+  section.renovation div.catch div.message {
     font-size: 25px;
     line-height: 46px;
   }
 }
-section.flow div.catch div.message br {
+section.renovation div.catch div.message br {
   display: none;
 }
 @media (min-width: 768px) {
-  section.flow div.catch div.message br {
+  section.renovation div.catch div.message br {
     display: block;
   }
 }
-section.flow div.lists {
-  position: relative;
-}
-section.flow div.lists div.background {
-  position: absolute;
-  content: "";
-  z-index: -1;
-  background-color: #f8f8f8;
-  width: 90%;
-  height: 99%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.background {
-    height: 97%;
-  }
-}
-section.flow div.lists div.steps {
-  position: relative;
-  padding-top: 53px;
-  padding-bottom: 60px;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 260px;
-    padding-bottom: 660px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  section.flow div.lists div.steps {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1024px) {
-  section.flow div.lists div.steps {
-    display: block;
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-}
-section.flow div.lists div.steps div.item {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item {
-    position: relative;
-  }
-}
-section.flow div.lists div.steps div.item div.label {
-  display: flex;
-  gap: 16px;
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item div.label {
-    gap: 88px;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.cycle {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../img/flow_number_bg.webp");
-  background-size: cover;
-  box-shadow: 0px 8px 16px -2px rgba(10, 10, 10, 0.1), 8px 8px 15px -5px rgba(0, 0, 0, 0.28);
-  border-radius: 6px;
-  width: 60px;
-  height: 60px;
-  position: relative;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.cycle {
-    width: 120px;
-    height: 120px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item div.label div.cycle {
-    width: 90px;
-    height: 90px;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.cycle span.name {
-  line-height: 1;
-  letter-spacing: 0.02px;
-  color: #fff;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.cycle span.name {
-    letter-spacing: 1.6px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  section.flow div.lists div.steps div.item div.label div.cycle span.name {
-    font-size: 15px;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.cycle div.number {
-  font-size: 21px;
+section.renovation div.catch div.message span.number {
+  font-size: 29px;
   line-height: 56px;
-  line-height: 1;
-  letter-spacing: 0.05px;
-  color: #fff;
-  margin-top: 4px;
+  line-height: 28px;
+  letter-spacing: 2.45px;
 }
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.cycle div.number {
-    font-size: 42px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item div.label div.cycle div.number {
-    font-size: 32px;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.cycle::after {
-  position: absolute;
-  content: "";
-  background-color: #733b00;
-  width: 120px;
-  height: 2px;
-  z-index: -1;
-  left: 0;
-}
-section.flow div.lists div.steps div.item div.label div.data {
-  flex: 1;
-  background-color: #fff;
-  box-shadow: 0px 8px 10px 0px rgba(172, 172, 172, 0.3);
-  padding: 32px 16px;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.data {
-    flex: unset;
-    width: 480px;
-    position: absolute;
-    content: "";
-    padding: 62px 45px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item div.label div.data {
-    flex: 1;
-    position: relative;
-    padding: 32px;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.data h2 {
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 30px;
-  letter-spacing: 0.03px;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.data h2 {
-    font-size: 28px;
-    letter-spacing: 2.8px;
-    line-height: 45px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  section.flow div.lists div.steps div.item div.label div.data h2 {
-    font-size: 25px;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.data h2 br {
-  display: none;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.data h2 br {
-    display: block;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.data div.text {
+section.renovation div.catch div.subcatch {
   font-size: 14px;
   line-height: 30px;
   line-height: 25px;
-  letter-spacing: 0.01px;
-  margin-top: 20px;
+  letter-spacing: 0.14px;
+  margin-top: 28px;
 }
 @media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.data div.text {
-    margin-top: 16px;
+  section.renovation div.catch div.subcatch {
+    margin-top: 57px;
   }
 }
-section.flow div.lists div.steps div.item div.label div.data div.image {
-  margin-top: 15px;
-}
-section.flow div.lists div.steps div.item div.label div.data div.image img.image {
-  width: 100%;
-}
-section.flow div.lists div.steps div.item div.label div.data div.contact {
-  display: flex;
-  gap: 11px;
-  margin-top: 10px;
-}
-section.flow div.lists div.steps div.item div.label div.data div.contact div.phone {
-  font-size: 20px;
-  line-height: 56px;
-  line-height: 28px;
-  letter-spacing: 0;
-  color: #fff;
-  background-color: #393939;
-  border-radius: 5px;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+section.renovation div.data {
+  background-color: #eee2dc;
+  margin-top: 59px;
+  padding-top: 43px;
+  padding-bottom: 67px;
 }
 @media (min-width: 768px) {
-  section.flow div.lists div.steps div.item div.label div.data div.contact div.phone {
-    font-size: 30px;
-  }
-}
-section.flow div.lists div.steps div.item div.label div.data div.contact div.mail {
-  background-color: #8a7e78;
-  border-radius: 5px;
-  padding: 8px;
-}
-section.flow div.lists div.steps div.item + .item {
-  margin-top: 40px;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item + .item {
-    margin-top: 266px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item + .item {
-    margin-top: 80px;
-  }
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item:nth-child(odd) div.label div.cycle::after {
-    left: 100px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item:nth-child(odd) div.label div.cycle::after {
-    left: 88px;
-  }
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item:nth-child(odd) div.label div.data {
-    left: 200px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item:nth-child(odd) div.label div.data {
-    left: unset;
-  }
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item:nth-child(even) div.label div.cycle::after {
-    left: -100px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item:nth-child(even) div.label div.cycle::after {
-    left: 88px;
-  }
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps div.item:nth-child(even) div.label div.data {
-    right: 200px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  section.flow div.lists div.steps div.item:nth-child(even) div.label div.data {
-    right: unset;
-  }
-}
-section.flow div.lists div.steps::before {
-  position: absolute;
-  content: "";
-  background-color: #733b00;
-  width: 2px;
-  height: 100%;
-  z-index: -1;
-  top: 56px;
-  left: 8.5%;
-}
-@media (min-width: 768px) {
-  section.flow div.lists div.steps::before {
-    top: 300px;
-    left: 50%;
+  section.renovation div.data {
+    margin-top: 118px;
+    padding-top: 87px;
+    padding-bottom: 156px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  section.flow div.lists div.steps::before {
-    top: 156px;
-    left: 9%;
+  section.renovation div.data {
+    margin-top: 90px;
   }
 }
-@media (min-width: 992px) and (max-width: 1024px) {
-  section.flow div.lists div.steps::before {
-    top: 156px;
-    left: 19.5%;
+@media (min-width: 768px) {
+  section.renovation div.data div.container {
+    width: 1000px;
   }
 }
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.data div.container div.lists div.item {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item div.image {
+    width: 60%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.data div.container div.lists div.item div.image {
+    width: initial;
+  }
+}
+section.renovation div.data div.container div.lists div.item div.image img.img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item div.text {
+    flex: 1;
+    position: absolute;
+    content: "";
+    bottom: -32px;
+    max-width: 480px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.data div.container div.lists div.item div.text {
+    position: relative;
+    bottom: unset;
+    max-width: initial;
+  }
+}
+section.renovation div.data div.container div.lists div.item div.text dl.box {
+  background-color: #fff;
+  box-shadow: 0px 8px 10px 0px rgba(172, 172, 172, 0.3);
+  padding: 24px 16px;
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item div.text dl.box {
+    padding: 67px 48px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.data div.container div.lists div.item div.text dl.box {
+    padding: 32px;
+  }
+}
+section.renovation div.data div.container div.lists div.item div.text dl.box dt {
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 6.9px;
+  color: #393939;
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item div.text dl.box dt {
+    font-size: 28px;
+    line-height: 56px;
+    letter-spacing: 8.4px;
+  }
+}
+section.renovation div.data div.container div.lists div.item div.text dl.box dd {
+  line-height: 30px;
+  line-height: 25px;
+  margin-top: 16px;
+}
+section.renovation div.data div.container div.lists div.item div.text dl.box dd div.links {
+  margin-top: 16px;
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item div.text dl.box dd div.links {
+    margin-top: 52px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.data div.container div.lists div.item div.text dl.box dd div.links {
+    margin-top: 32px;
+  }
+}
+section.renovation div.data div.container div.lists div.item div.text dl.box dd div.links a {
+  font-size: 12px;
+  line-height: 56px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #393939;
+  border: 1px solid #393939;
+  border-radius: 50px;
+  padding: 10px 32px;
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item div.text dl.box dd div.links a {
+    width: 60%;
+    display: block;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.data div.container div.lists div.item div.text dl.box dd div.links a {
+    width: 50%;
+  }
+}
+section.renovation div.data div.container div.lists div.item + .item {
+  margin-top: 66px;
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item + .item {
+    margin-top: 144px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.data div.container div.lists div.item + .item {
+    margin-top: 105px;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item:nth-child(odd) div.text {
+    right: 0;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.data div.container div.lists div.item:nth-child(even) div.text {
+    left: 0;
+  }
+}
+section.renovation div.reform {
+  margin-top: 72px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform {
+    margin-top: 225px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.reform {
+    margin-top: 144px;
+  }
+}
+section.renovation div.reform div.title {
+  text-align: center;
+}
+section.renovation div.reform div.title hgroup span.english {
+  line-height: 28px;
+  letter-spacing: 0.7px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.title hgroup span.english {
+    line-height: 56px;
+    letter-spacing: 0.8px;
+  }
+}
+section.renovation div.reform div.title hgroup h2 {
+  font-size: 23px;
+  color: #393939;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.title hgroup h2 {
+    font-size: 28px;
+    letter-spacing: 0.56px;
+  }
+}
+section.renovation div.reform div.flow {
+  margin-top: 59px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.flow {
+    margin-top: 170px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.reform div.flow {
+    margin-top: 120px;
+  }
+}
+section.renovation div.reform div.flow div.item {
+  position: relative;
+}
+section.renovation div.reform div.flow div.item img.reform_bg {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -20px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.flow div.item img.reform_bg {
+    top: -24px;
+  }
+}
+section.renovation div.reform div.flow div.item div.text {
+  background-color: #eee2dc;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding: 26px 16px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.flow div.item div.text {
+    width: 94%;
+    padding: 53px 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.reform div.flow div.item div.text {
+    padding: 32px;
+  }
+}
+section.renovation div.reform div.flow div.item div.text h3 {
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 6.9px;
+  color: #393939;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.flow div.item div.text h3 {
+    font-size: 28px;
+    line-height: 56px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.reform div.flow div.item div.text h3 {
+    font-size: 26px;
+  }
+}
+section.renovation div.reform div.flow div.item div.text div.comment {
+  margin-top: 18px;
+}
+section.renovation div.reform div.flow div.item div.text div.number {
+  font-size: 29px;
+  line-height: 56px;
+  line-height: 28px;
+  letter-spacing: 1.45px;
+  color: #393939;
+  position: absolute;
+  content: "";
+  right: 8px;
+  bottom: -16px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.flow div.item div.text div.number {
+    font-size: 58px;
+    right: 16px;
+  }
+}
+section.renovation div.reform div.flow div.item + .item {
+  margin-top: 50px;
+}
+@media (min-width: 768px) {
+  section.renovation div.reform div.flow div.item + .item {
+    margin-top: 136px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.reform div.flow div.item + .item {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.reform.container {
+    width: 760px;
+  }
+}
+section.renovation div.pagelinks {
+  margin-top: 105px;
+}
+@media (min-width: 768px) {
+  section.renovation div.pagelinks {
+    margin-top: 210px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.pagelinks {
+    margin-top: 160px;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.pagelinks div.column {
+    display: flex;
+    gap: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.pagelinks div.column {
+    gap: 25px;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.pagelinks div.column div.item {
+    flex: 1;
+  }
+}
+section.renovation div.pagelinks div.column div.item a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 5.4px;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  padding: 24px 18px;
+}
+@media (min-width: 768px) {
+  section.renovation div.pagelinks div.column div.item a {
+    font-size: 20px;
+    line-height: 36px;
+    padding: 32px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.pagelinks div.column div.item a {
+    padding: 24px;
+  }
+}
+section.renovation div.pagelinks div.column div.item:first-child a {
+  background-image: url("img/reform_case_link_bg.webp");
+  background-size: cover;
+  background-position: center;
+  color: #393939;
+}
+section.renovation div.pagelinks div.column div.item:last-child {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  section.renovation div.pagelinks div.column div.item:last-child {
+    margin-top: initial;
+  }
+}
+section.renovation div.pagelinks div.column div.item:last-child a {
+  background-color: #8a7e78;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+@media (min-width: 768px) {
+  section.renovation div.pagelinks div.column div.item:last-child a {
+    gap: 34px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.renovation div.pagelinks div.column div.item:last-child a {
+    gap: 17px;
+  }
+}
+@media (min-width: 768px) {
+  section.renovation div.pagelinks.container {
+    width: 920px;
+  }
+}
+
+div.conference {
+  margin-top: 115px;
+}
+@media (min-width: 768px) {
+  div.conference {
+    margin-top: 230px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.conference {
+    margin-top: 160px;
+  }
+}
+
 .conference {
   margin-bottom: 6px;
   background-color: #8c7c74;
