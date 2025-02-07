@@ -814,7 +814,7 @@ section.renovation div.pagelinks div.column div.item a {
   }
 }
 section.renovation div.pagelinks div.column div.item:first-child a {
-  background-image: url("img/reform_case_link_bg.webp");
+  background-image: url("../img/reform_case_link_bg.webp");
   background-size: cover;
   background-position: center;
   color: #393939;
