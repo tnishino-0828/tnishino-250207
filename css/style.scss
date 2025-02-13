@@ -454,14 +454,14 @@ section.renovation {
       line-height: 36px;
       border-bottom: 1px solid #733b00;
       display: inline-block;
-      text-align: left;
+      text-align: center;
       margin-top: 8px;
       padding-bottom: 8px;
       @media (min-width: 768px) {
         font-size: 28px;
         line-height: 56px;
         letter-spacing: 2.8px;
-        text-align: center;
+        width: 500px;
       }
       @media (min-width: 768px) and (max-width: 991.98px) {
         font-size: 25px;
@@ -474,10 +474,13 @@ section.renovation {
         }
       }
       span.number {
-        font-size: 29px;
-        line-height: 56px;
+        font-size: 34px;
         line-height: 28px;
         letter-spacing: 2.45px;
+        @media (min-width: 768px) {
+          font-size: 58px;
+          line-height: 48px;
+        }
       }
     }
     div.subcatch {
@@ -508,7 +511,7 @@ section.renovation {
     }
     div.container {
       @media (min-width: 768px) {
-        width: 1000px;
+        width: 1166px;
       }
       div.lists {
         div.item {
@@ -524,7 +527,7 @@ section.renovation {
           }
           div.image {
             @media (min-width: 768px) {
-              width: 60%;
+              width: 67%;
             }
             @media (min-width: 768px) and (max-width: 991.98px) {
               width: initial;
@@ -727,6 +730,7 @@ section.renovation {
             }
           }
         }
+        
         &+.item {
           margin-top: 50px;
           @media (min-width: 768px) {
@@ -735,6 +739,15 @@ section.renovation {
           @media (min-width: 768px) and (max-width: 991.98px) {
             margin-top: 100px;
           }
+        }
+        &:not(:last-child)::after {
+          position: absolute;
+          content: "";
+          background-color: #733b00;
+          width: 3px;
+          height: 200px;
+          left: 50%;
+          transform: translateX(-50%);
         }
       }
     }
@@ -822,6 +835,7 @@ section.renovation {
     }
   }
 }
+
 div.conference {
   margin-top: 115px;
   @media (min-width: 768px) {

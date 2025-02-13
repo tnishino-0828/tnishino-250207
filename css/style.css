@@ -417,7 +417,7 @@ section.renovation div.catch div.message {
   line-height: 36px;
   border-bottom: 1px solid #733b00;
   display: inline-block;
-  text-align: left;
+  text-align: center;
   margin-top: 8px;
   padding-bottom: 8px;
 }
@@ -426,7 +426,7 @@ section.renovation div.catch div.message {
     font-size: 28px;
     line-height: 56px;
     letter-spacing: 2.8px;
-    text-align: center;
+    width: 500px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -444,10 +444,15 @@ section.renovation div.catch div.message br {
   }
 }
 section.renovation div.catch div.message span.number {
-  font-size: 29px;
-  line-height: 56px;
+  font-size: 34px;
   line-height: 28px;
   letter-spacing: 2.45px;
+}
+@media (min-width: 768px) {
+  section.renovation div.catch div.message span.number {
+    font-size: 58px;
+    line-height: 48px;
+  }
 }
 section.renovation div.catch div.subcatch {
   font-size: 14px;
@@ -481,7 +486,7 @@ section.renovation div.data {
 }
 @media (min-width: 768px) {
   section.renovation div.data div.container {
-    width: 1000px;
+    width: 1166px;
   }
 }
 @media (min-width: 768px) {
@@ -500,7 +505,7 @@ section.renovation div.data {
 }
 @media (min-width: 768px) {
   section.renovation div.data div.container div.lists div.item div.image {
-    width: 60%;
+    width: 67%;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -756,6 +761,15 @@ section.renovation div.reform div.flow div.item + .item {
   section.renovation div.reform div.flow div.item + .item {
     margin-top: 100px;
   }
+}
+section.renovation div.reform div.flow div.item:not(:last-child)::after {
+  position: absolute;
+  content: "";
+  background-color: #733b00;
+  width: 3px;
+  height: 200px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 @media (min-width: 768px) {
   section.renovation div.reform.container {
